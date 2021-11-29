@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form</title>
+        <style>
+            .tabl{
+                background-color:#2a7abd;
+                border-spacing: 5px;
+            }
+            .aste{
+                color: red;
+            }
+            body{
+                background-image: url(https://wallpaperaccess.com/full/1092563.jpg);
+            }
+            #reg{
+                color:darkred;
+            }
+        </style>
+    </head>
+    <body>
+        <table border="1" align="center" class="tabl" >
+            <form>
+                <tr>
+                    <th colspan="4" id="reg">Register Here</th>
+                </tr>
+                <tr>
+                    <td><span class="aste">*</span>First Name:<input type="text" name="fname" class="text" required></td>
+                    <td>Last Name:<input type="text" name="lname" class="text" ></td>
+                </tr>
+                <tr>
+                    <td colspan="4"><span class="aste">*</span>Email:<input type="email" class="text" name="mail" required ></td>
+                </tr>
+                <tr>
+                    <td><span class="aste">*</span>Password:<input type="password" class="text" required name="pass" required></td>
+                    <td><span class="aste">*</span>Re-Password:<input type="password" class="text" required name="repass"required></td>
+                </tr>
+                <tr>
+                    <td><span class="aste">*</span>Gender: <label>Male<input type="radio" name="gd"checked required></label>
+                        <label>Female<input type="radio" name="gd"></label>
+                    </td> 
+                    <td><span class="aste">*</span>Country <select >
+                        <option value="0">Select Country</option>
+                        <option>Nepal</option>
+                        <option>India</option>
+                        <option>Sri Lanka</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td>Your Photo: <input type="file" value="Choose File"></td>
+                </tr>
+                <tr>
+                    <td align="center"><input type="submit" name="sub"></td>
+                    <td align="center"><input type="reset" value="Clear Form"></td>
+                </tr>
+            </form>
+        </table>
+        <p align="center">&copy; Binayak Bhattarai WT NCIT 2021</p>
+    </body>
+</html>
