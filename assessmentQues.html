@@ -1,0 +1,78 @@
+<html>
+
+<head>
+    <title>Form</title>
+    <script src="dom.js"></script>
+    <style>
+        .form_div {
+            border: 10px solid black;
+            text-align: center;
+            margin-left: 35%;
+            margin-right: 35%;
+            height: 60%;
+            padding-top: 15px;
+        }
+        
+        .logo {
+            color: white;
+            background-color: black;
+            margin-right: 5px;
+            border: 2px solid black;
+        }
+        
+        .para {
+            background-color: grey;
+            border-radius: 40%;
+            margin-top: 10%;
+        }
+        
+        .user {
+            margin: 5px 0px;
+        }
+        
+        #forget {
+            margin-left: 10px;
+        }
+        
+        #submit {
+            margin: 15px 0px;
+            width: 55%;
+            height: 6%;
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+
+<body style="background-color: rgb(15, 64, 73)">
+    <div>
+        <form class="form_div" style="background-color: rgb(171, 192, 206)">
+            <span class="logo"><a href="https:\\www.facebook.com"
+            ><img
+              style="height: 25px; width: 25px"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVXNp6Htv13pEEuAVFCafc9h4d-cepuWmhdQ&usqp=CAU" /></a
+          >Login to Facebook
+        </span>
+            <span class="logo"><a href="https:\\twitter.com"
+            ><img
+              style="height: 25px; width: 25px"
+              src="data:image/png;base64,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" /></a
+          >Login to Twitter</span
+        >
+        <br />
+        <p><span class="para">Or</span></p>
+            <input type="text" name="name" class="user" id="uname" placeholder="Username" size="25px" required onblur="handleClick()" /><br /><span id="userError"></span>
+            <br />
+            <input type="password" name="pass" class="user" id="upass" placeholder="*******" size="25px" required onblur="handleClick()" /><br /><span id="passError"></span>
+            <br />
+            <input id="check" onclick="myfunc()" type="checkbox" />Keep me Signed in
+            <span id="forget">Forgot Your Password?</span>
+            <br />
+            <input id="submit" type="submit" value="Login" size="25px" />
+            <br />
+            <span>Not a member? Sign up now!</span>
+        </form>
+    </div>
+</body>
+
+</html>
